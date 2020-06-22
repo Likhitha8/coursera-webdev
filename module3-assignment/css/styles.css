@@ -1,0 +1,47 @@
+body{
+  font-size: 16px;
+  background-color:LightSalmon;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar.navbar-default {
+  background-color:MediumAquaMarine;
+  border-radius:0;
+  border: 1px solid black;
+  }
+  .navbar-default .navbar-brand {
+    color: rgb(90, 38, 38);
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgb(65, 37, 37);
+  }
+  .navbar-default .navbar-toggle.collapsed {
+    border-color: black;
+  }
+  .navbar-default .navbar-toggle.collapsed .icon-bar {
+    background-color: black;
+  }
+   /* .navbar-default .navbar-toggle:hover .icon-bar, */
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(164, 214, 210);
+  }
+  
+  #navbar-menu li {
+    border: 1px LavenderBlush;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+  }
+  
+  div.section {
+    background-color:LavenderBlush;
+    padding: 5px 20px 15px 20px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    #navbar-menu {
+      background-color: Wheat;
+    }
+  }
+   
